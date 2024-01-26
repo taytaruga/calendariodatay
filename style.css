@@ -1,0 +1,79 @@
+body {
+    background-color: #ffe6ff; /* rosa claro */
+    color: #333333; /* cor do texto */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    width: 280px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffccff; /* rosa mais escuro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.text, .num {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.text {
+    width: 65%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.num {
+    background-color: #ff99cc; /* rosa mais forte */
+    color: #ffffff; /* texto branco */
+}
+
+.num:hover {
+    background-color: #ff66a3; /* rosa mais escuro - efeito hover */
+}
+
+.operator {
+    background-color: #ffccff; /* rosa claro */
+}
+
+.operator:hover {
+    background-color: #ff99cc; /* rosa mais escuro - efeito hover */
+}
+
+.special {
+    background-color: #ff66a3; /* rosa forte */
+}
+
+.special:hover {
+    background-color: #ff3385; /* rosa mais escuro - efeito hover */
+}
+
+.equal {
+    background-color: #ffccff; /* rosa claro */
+}
+
+.equal:hover {
+    background-color: #ff99cc; /* rosa mais escuro - efeito hover */
+}
+
+.clear {
+    width: 30%;
+    background-color: #ff6666; /* vermelho claro */
+    color: #ffffff; /* texto branco */
+}
+
+.clear:hover {
+    background-color: #ff4d4d; /* vermelho mais escuro - efeito hover */
+}
